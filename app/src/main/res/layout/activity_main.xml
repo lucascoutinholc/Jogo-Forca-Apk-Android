@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/digite_10_palavras"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_primeira_palavra"
+        android:id="@+id/primeiraPalavra"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_segunda_palavra"
+        android:id="@+id/segundaPalavra"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_terceira_palavra"
+        android:id="@+id/terceiraPalavra"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_quarta_palavra"
+        android:id="@+id/quartaPalavra"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_quinta_palavra"
+        android:id="@+id/quintaPalavra"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_sexta_palavra"
+        android:id="@+id/sextaPalavra"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_s_tima_palavra"
+        android:id="@+id/setimaPalavra"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_oitava_palavra"
+        android:id="@+id/oitavaPalavra"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_nona_palavra"
+        android:id="@+id/nonaPalavra"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_d_cima_palavra"
+        android:id="@+id/decimaPalavra"
+        android:inputType="text"
+        android:importantForAutofill="no"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/come_ar_jogo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_margin="5dp"
+        android:id="@+id/botaoComecar"/>
+
+</LinearLayout>

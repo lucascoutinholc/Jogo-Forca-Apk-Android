@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Apk-Jogo-Forca</string>
+    <string name="digite_10_palavras">Digite 10 palavras:</string>
+    <string name="digite_a_primeira_palavra">Digite a primeira palavra</string>
+    <string name="digite_a_segunda_palavra">Digite a segunda palavra</string>
+    <string name="digite_a_terceira_palavra">Digite a terceira palavra</string>
+    <string name="digite_a_quarta_palavra">Digite a quarta palavra</string>
+    <string name="digite_a_quinta_palavra">Digite a quinta palavra</string>
+    <string name="digite_a_sexta_palavra">Digite a sexta palavra</string>
+    <string name="digite_a_s_tima_palavra">Digite a sétima palavra</string>
+    <string name="digite_a_oitava_palavra">Digite a oitava palavra</string>
+    <string name="digite_a_nona_palavra">Digite a nona palavra</string>
+    <string name="digite_a_d_cima_palavra">Digite a décima palavra</string>
+    <string name="come_ar_jogo">Começar jogo</string>
+</resources>
